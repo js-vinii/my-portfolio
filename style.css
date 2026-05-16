@@ -472,3 +472,27 @@ button.btn-outline:hover {
 .tag:hover {
     background-color: var(--border-color);
 }
+
+/* --- Responsividade para Celulares e Tablets --- */
+@media (max-width: 768px) {
+    /* Centraliza os itens do menu de navegação */
+    nav {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    /* Reduz o tamanho da sua foto de perfil para não ocupar a tela toda */
+    .profile-pic {
+        width: 180px;
+        height: 180px;
+    }
+
+    /* Garante que a seção de contatos fique em coluna */
+    .social-links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+}
