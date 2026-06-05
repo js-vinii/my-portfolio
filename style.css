@@ -436,7 +436,7 @@ footer {
     100% { background-color: var(--accent-color); }
 }
 
-/* --- Ajuste do Botão Copiar E-mail --- */
+/* --- Botão Copiar E-mail --- */
 button.btn-outline {
     background-color: transparent;
     font-family: inherit;
